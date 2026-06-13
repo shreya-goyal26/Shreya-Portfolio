@@ -1,17 +1,14 @@
 import React from 'react'
-import {Routes,Route} from 'react-router-dom'
 import Home from './Pages/Home'
 import Navbar from './Components/Navbar'
 
 const App = () => {
   return (
-    <div> 
-      <Navbar/>
-      <Routes>
-         <Route path='/' element={<Home />}/>
-        </Routes>
-     </div>
+    <div>
+      <Navbar />
+      <Home />
+    </div>
   )
 }
 
-export default App;
+export default App
